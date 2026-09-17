@@ -1,0 +1,26 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Local vector databases
+vector_store/
+
+# Frontend dependencies and build output
+web/node_modules/
+web/dist/
+
+# Editor and OS files
+.vscode/
+.DS_Store

@@ -1,0 +1,6328 @@
+{
+  "_metadata": {
+    "source_file": "rev_shoes_grouped.json",
+    "total_items": 221,
+    "classification_method": "rule_based_by_model_name_and_known_shoe_family",
+    "categories": [
+      "easy_run",
+      "interval",
+      "tempo",
+      "race_day"
+    ],
+    "score_meaning": {
+      "0": "not_recommended",
+      "1": "usable_not_ideal",
+      "2": "good",
+      "3": "best_fit"
+    },
+    "rag_hint": "Filter by recommended_runs for broad matching, or primary_use for strongest recommendation."
+  },
+  "_summary_by_brand_primary_use": {
+    "ADIDAS": {
+      "easy_run": 9,
+      "interval": 5,
+      "tempo": 12,
+      "race_day": 6,
+      "lifestyle_or_walking": 0
+    },
+    "ASICS": {
+      "easy_run": 12,
+      "interval": 0,
+      "tempo": 1,
+      "race_day": 0,
+      "lifestyle_or_walking": 0
+    },
+    "BROOKS": {
+      "easy_run": 35,
+      "interval": 0,
+      "tempo": 5,
+      "race_day": 0,
+      "lifestyle_or_walking": 0
+    },
+    "HOKA": {
+      "easy_run": 43,
+      "interval": 0,
+      "tempo": 20,
+      "race_day": 0,
+      "lifestyle_or_walking": 1
+    },
+    "NEWBALANCE": {
+      "easy_run": 2,
+      "interval": 0,
+      "tempo": 2,
+      "race_day": 2,
+      "lifestyle_or_walking": 0
+    },
+    "NIKE": {
+      "easy_run": 4,
+      "interval": 0,
+      "tempo": 1,
+      "race_day": 5,
+      "lifestyle_or_walking": 0
+    },
+    "ON": {
+      "easy_run": 14,
+      "interval": 0,
+      "tempo": 3,
+      "race_day": 0,
+      "lifestyle_or_walking": 3
+    },
+    "SAUCONY": {
+      "easy_run": 18,
+      "interval": 0,
+      "tempo": 12,
+      "race_day": 5,
+      "lifestyle_or_walking": 0
+    },
+    "XTEP": {
+      "easy_run": 0,
+      "interval": 0,
+      "tempo": 0,
+      "race_day": 1,
+      "lifestyle_or_walking": 0
+    }
+  },
+  "ADIDAS": [
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO TAKUMI SEN 10 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2055.0,
+      "handle": "ig1979-adidas-adizero-takumi-sen-10-m-men",
+      "primary_use": "interval",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 3,
+        "tempo": 3,
+        "race_day": 2
+      },
+      "shoe_tags": [
+        "speed",
+        "short_race",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นรองเท้าสายเร็ว น้ำหนักเบา เหมาะกับ interval/tempo และใช้แข่งระยะสั้นถึงกลางได้",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เหมาะกับ easy run หรือ recovery run"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO BOSTON 12 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2055.0,
+      "handle": "if9211-adidas-adizero-boston-12-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO TAKUMI SEN M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2055.0,
+      "handle": "id3621-adidas-adizero-takumi-sen-10-m-men",
+      "primary_use": "interval",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 3,
+        "tempo": 3,
+        "race_day": 2
+      },
+      "shoe_tags": [
+        "speed",
+        "short_race",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นรองเท้าสายเร็ว น้ำหนักเบา เหมาะกับ interval/tempo และใช้แข่งระยะสั้นถึงกลางได้",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เหมาะกับ easy run หรือ recovery run"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO TAKUMI SEN M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2055.0,
+      "handle": "id3620-adidas-adizero-takumi-sen-10-m-men",
+      "primary_use": "interval",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 3,
+        "tempo": 3,
+        "race_day": 2
+      },
+      "shoe_tags": [
+        "speed",
+        "short_race",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นรองเท้าสายเร็ว น้ำหนักเบา เหมาะกับ interval/tempo และใช้แข่งระยะสั้นถึงกลางได้",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เหมาะกับ easy run หรือ recovery run"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO SL2 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 1990.0,
+      "handle": "if9383-adidas-adizero-sl2-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO ADIOS PRO 4 M Men รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 8000.0,
+      "handle": "jr6364-adidas-adizero-adios-pro-4-m-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO SL2 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 1955.0,
+      "handle": "ie1054-adidas-adizero-sl2-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO EVO SL M Men รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4350.0,
+      "handle": "js4487-adidas-adizero-evo-sl-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO ADIOS PRO 4 M Men รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 8000.0,
+      "handle": "jr1267-adidas-adizero-adios-pro-4-m-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO EVO SL M Men รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4350.0,
+      "handle": "js4506-adidas-adizero-evo-sl-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO TAKUMI SEN 10 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2055.0,
+      "handle": "if1211-adidas-adizero-takumi-sen-10-m-men",
+      "primary_use": "interval",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 3,
+        "tempo": 3,
+        "race_day": 2
+      },
+      "shoe_tags": [
+        "speed",
+        "short_race",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นรองเท้าสายเร็ว น้ำหนักเบา เหมาะกับ interval/tempo และใช้แข่งระยะสั้นถึงกลางได้",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เหมาะกับ easy run หรือ recovery run"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO EVO SL WOVEN M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5800.0,
+      "handle": "ki6901-adidas-adizero-evo-sl-woven-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO EVO SL WOVEN M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4350.0,
+      "handle": "ki6903-adidas-adizero-evo-sl-woven-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO ADIOS PRO 4 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 8000.0,
+      "handle": "jr4887-adidas-adizero-adios-pro-4-m-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO EVO SL WOVEN M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5800.0,
+      "handle": "kj1994-adidas-adizero-evo-sl-woven-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO ADIOS PRO 4 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 8000.0,
+      "handle": "jp6623-adidas-adizero-adios-pro-4-m-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO BOSTON 12 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2055.0,
+      "handle": "if9209-adidas-adizero-boston-12-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO EVO SL WOVEN M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4350.0,
+      "handle": "jr2023-adidas-adizero-evo-sl-woven-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS 4DFWD 4 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2055.0,
+      "handle": "id8887-adidas-4dfwd-4-m-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO EVO SL WOVEN M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5800.0,
+      "handle": "ki6900-adidas-adizero-evo-sl-woven-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO EVO SL WOVEN M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4350.0,
+      "handle": "jr2024-adidas-adizero-evo-sl-woven-m-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO TAKUMI SEN 11 Men รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4690.0,
+      "handle": "ji0991-adidas-adizero-takumi-sen-11-men",
+      "primary_use": "interval",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 3,
+        "tempo": 3,
+        "race_day": 2
+      },
+      "shoe_tags": [
+        "speed",
+        "short_race",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นรองเท้าสายเร็ว น้ำหนักเบา เหมาะกับ interval/tempo และใช้แข่งระยะสั้นถึงกลางได้",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เหมาะกับ easy run หรือ recovery run"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS 4DFWD 4 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2055.0,
+      "handle": "ie5977-adidas-4dfwd-4-m-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO ADIOS PRO 4 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 8000.0,
+      "handle": "jr1269-adidas-adizero-adios-pro-4-m-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ADIZERO ADIOS PRO 4 M Men รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 8000.0,
+      "handle": "jr6366-adidas-adizero-adios-pro-4-m-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ULTRABOOST 5 Men รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3900.0,
+      "handle": "jq2903-adidas-ultraboost-5-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS SUPERNOVA RISE 2 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 1955.0,
+      "handle": "jr7685-adidas-supernova-rise-2-m-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS SUPERNOVA RISE 2 WIDE M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 1955.0,
+      "handle": "ih8712-adidas-supernova-rise-2-wide-m-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS ULTRABOOST 5 Men รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3900.0,
+      "handle": "jq2909-adidas-ultraboost-5-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS SUPERNOVA RISE M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 1955.0,
+      "handle": "ig5841-adidas-supernova-rise-m-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS SUPERNOVA RISE 2 M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3290.0,
+      "handle": "ih2504-adidas-supernova-rise-2-m-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ADIDAS",
+      "model": "ADIDAS SUPERNOVA STRIDE M รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 1955.0,
+      "handle": "ie1075-adidas-supernova-stride-m-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    }
+  ],
+  "ASICS": [
+    {
+      "brand": "ASICS",
+      "model": "ASICS NOVABLAST 5 PLATINUM รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4560.0,
+      "handle": "1011c193-001-asics-novablast-5-platinum-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS GEL-KAYANO 32 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3900.0,
+      "handle": "1011c051-101-asics-gel-kayano-32-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS GEL-NIMBUS 28 PLATINUM รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5520.0,
+      "handle": "1011c214-001-asics-gel-nimbus-28-platinum-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS GEL-KAYANO 32 ATC รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3900.0,
+      "handle": "1011c132-100-asics-gel-kayano-32-atc-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS NOVABLAST 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4160.0,
+      "handle": "1011c224-300-asics-novablast-5-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS GEL-KAYANO 32 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6500.0,
+      "handle": "1011c051-001-asics-gel-kayano-32-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS GEL-KAYANO 32 PLATINUM รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5520.0,
+      "handle": "1011c215-001-asics-gel-kayano-32-platinum-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS NOVABLAST 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5200.0,
+      "handle": "1011b974-407-asics-novablast-5-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS GLIDERIDE MAX 2 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5200.0,
+      "handle": "1011c156-400-asics-glideride-max-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS GLIDERIDE MAX 2 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5200.0,
+      "handle": "1011c156-300-asics-glideride-max-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS GEL-KAYANO 32 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6500.0,
+      "handle": "1011c052-100-asics-gel-kayano-32-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS SONICBLAST รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5520.0,
+      "handle": "1011c083-300-asics-sonicblast-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ASICS",
+      "model": "ASICS GEL-NIMBUS 28 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6500.0,
+      "handle": "1011c144-400-asics-gel-nimbus-28-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    }
+  ],
+  "BROOKS": [
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin Max Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4830.0,
+      "handle": "1104471d303-glycerin-max-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost 16 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2160.0,
+      "handle": "1104181d002-brooks-ghost-16-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost Max 2 Wide(2E) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2800.0,
+      "handle": "1104312e168-brooks-ghost-max-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost Max 3 Wide(2E) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3360.0,
+      "handle": "1104642e162-brooks-ghost-max-3-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost Max 3 4E Wide(4E) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3360.0,
+      "handle": "1104644e020-brooks-ghost-max-3-4e-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost Max 3 2E Wide(2E) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3360.0,
+      "handle": "1104642e020-brooks-ghost-max-3-2e-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin 22 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2950.0,
+      "handle": "1104451d135-brooks-glycerin-22-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Hyperion Max 3 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4130.0,
+      "handle": "1104671d670-brooks-hyperion-max-3-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Hyperion Max 3 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4130.0,
+      "handle": "1104671d182-brooks-hyperion-max-3-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost 17 Wide(2E) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2700.0,
+      "handle": "1104422e414-ghost-17-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost 17 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3240.0,
+      "handle": "1104421d023-ghost-17-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin Max 2 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6900.0,
+      "handle": "1104791d131-brooks-glycerin-max-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost 17 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2700.0,
+      "handle": "1104421d191-ghost-17-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Adrenaline GTS 25 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3920.0,
+      "handle": "1104541d033-brooks-adrenaline-gts-25-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost 17 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2700.0,
+      "handle": "1104421d180-ghost-17-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Adrenaline GTS 25 4E Wide(4E) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5600.0,
+      "handle": "1104544e020-brooks-adrenaline-gts-25-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost Max 3 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3360.0,
+      "handle": "1104641d173-brooks-ghost-max-3-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin Max 2 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6900.0,
+      "handle": "1104791d091-brooks-glycerin-max-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Hyperion Max 3 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4130.0,
+      "handle": "1104671d734-brooks-hyperion-max-3-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin 22 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3540.0,
+      "handle": "1104451d821-brooks-glycerin-22-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost 17 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2700.0,
+      "handle": "1104421d020-ghost-17-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Hyperion Max 3 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4130.0,
+      "handle": "1104671d175-brooks-hyperion-max-3-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Adrenaline GTS 25 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4480.0,
+      "handle": "1104541d123-brooks-adrenaline-gts-25-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin Max 2 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6900.0,
+      "handle": "1104791d186-brooks-glycerin-max-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin Max 2 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6900.0,
+      "handle": "1104791d485-brooks-glycerin-max-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin GTS 23 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5900.0,
+      "handle": "1105031d154-brooks-glycerin-gts-23-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin 22 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4130.0,
+      "handle": "1104451d023-brooks-glycerin-22-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost 17 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4320.0,
+      "handle": "1104421d033-brooks-ghost-17-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin GTS 23 2E Wide(2E) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5900.0,
+      "handle": "1105032e020-brooks-glycerin-gts-23-2e-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin 23 2E Wide(2E) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5900.0,
+      "handle": "1104762e090-brooks-glycerin-23-2e-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin Flex Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5900.0,
+      "handle": "1104781d114-brooks-glycerin-flex-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin 23 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5900.0,
+      "handle": "1104761d176-brooks-glycerin-23-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Hyperion 3 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3640.0,
+      "handle": "1104651d470-brooks-hyperion-3-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin GTS 23 4E Wide(4E) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5900.0,
+      "handle": "1105034e096-brooks-glycerin-gts-23-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost Max 3 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5600.0,
+      "handle": "1104641d255-brooks-ghost-max-3-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin Max 2 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6900.0,
+      "handle": "1104791d392-brooks-glycerin-max-2-medium-1d-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin Flex Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5900.0,
+      "handle": "1104781d051-brooks-glycerin-flex-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin 23 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5900.0,
+      "handle": "1104761d316-brooks-glycerin-23-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Glycerin 23 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5900.0,
+      "handle": "1104761d070-brooks-glycerin-23-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "BROOKS",
+      "model": "BROOKS Ghost Max 3 Medium(1D) รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5600.0,
+      "handle": "1104641d432-brooks-ghost-max-3-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    }
+  ],
+  "HOKA": [
+    {
+      "brand": "HOKA",
+      "model": "HOKA-BONDI 9 WIDE Men",
+      "type": "Road Running",
+      "price_thb": 6990.0,
+      "handle": "1162013-bblc-hoka-bondi-9-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-ARAHI 7 WIDE Men",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1147870-bwht-hoka-arahi-7-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-CLIFTON 10 WIDE Men",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1162032-bblc-hoka-clifton-10-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-BONDI 9 Men",
+      "type": "Road Running",
+      "price_thb": 6990.0,
+      "handle": "1162011-oltm-hoka-bondi-9-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 9 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4893.0,
+      "handle": "1162013-mvr-hoka-bondi-9-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-RINCON 3 WIDE Men",
+      "type": "Road Running",
+      "price_thb": 2395.0,
+      "handle": "1121370-pdl-hoka-rincon-3-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-MACH 6 Men",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1147790-wncl-hoka-mach-6-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-RINCON 3 WIDE Men",
+      "type": "Road Running",
+      "price_thb": 2395.0,
+      "handle": "1121370-vsw-hoka-rincon-3-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-RINCON 3 Men",
+      "type": "Road Running",
+      "price_thb": 2395.0,
+      "handle": "1119395-bncd-hoka-rincon-3-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 9 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5592.0,
+      "handle": "1162013-sccg-hoka-bondi-9-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA GAVIOTA 6 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5592.0,
+      "handle": "1171934-stllr-hoka-gaviota-6-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-CLIFTON 10 Men",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1162030-oltm-hoka-clifton-10-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-CLIFTON 9 Men",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1127895-vrtl-hoka-clifton-9-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-CLIFTON 10 WIDE Men",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1162032-wwh-hoka-clifton-10-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4792.0,
+      "handle": "1162032-sgnn-hoka-clifton-10-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH 6 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1147790-sntf-mach-6-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA SKYFLOW WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3245.0,
+      "handle": "1155117-wshr-hoka-skyflow-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-ARAHI 7 Men",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1147850-dtdr-hoka-arahi-7-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH 6 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1147790-wnl-hoka-mach-6-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4792.0,
+      "handle": "1162032-bksv-hoka-clifton-10-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH 6 รองเท้าวิ่งผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1147790-sccg-mach-6-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA ARAHI 8 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1168710-bblc-arahi-8-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH 6 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1147790-clrss-mach-6-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA TRANSPORT HIKE GTX รองเท้าลำลองไลฟ์สไตล์ผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3995.0,
+      "handle": "1172912-bblc-hoka-transport-hike-gtx-men",
+      "primary_use": "lifestyle_or_walking",
+      "recommended_runs": [],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 0,
+        "tempo": 0,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "walking",
+        "lifestyle"
+      ],
+      "classification_reason_th": "เป็นรองเท้าแนวลำลอง/เดินมากกว่ารองเท้าซ้อมวิ่งจริงจัง จึงไม่ควรถูก RAG ดึงเป็นตัวเลือกหลักสำหรับ workout",
+      "not_ideal_for": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ใช้เดินหรือวิ่งเบามากได้ แต่ไม่ใช่ตัวเลือกหลักสำหรับซ้อมตามเป้าหมาย"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH 7 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1171905-fyz-mach-7-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA GAVIOTA 6 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5592.0,
+      "handle": "1171934-mlfd-hoka-gaviota-6-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA ARAHI 8 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4792.0,
+      "handle": "1168710-nzn-hoka-arahi-8-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH X 3 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3745.0,
+      "handle": "1168871-nnhk-mach-x-3-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4792.0,
+      "handle": "1162030-drst-hoka-clifton-10-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA SKYFLOW รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4543.0,
+      "handle": "1155111-fcg-hoka-skyflow-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA ARAHI 7 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1147850-hlf-hoka-arahi-7-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3594.0,
+      "handle": "1162030-tfls-hoka-clifton-10-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2995.0,
+      "handle": "1162030-nss-hoka-clifton-10-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1162032-alf-hoka-clifton-10-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH 7 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1171905-asrn-mach-7-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA RINCON 4 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2495.0,
+      "handle": "1155130-pvr-hoka-rincon-4-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA ARAHI 8 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4792.0,
+      "handle": "1168710-gtp-hoka-arahi-8-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 9 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5592.0,
+      "handle": "1162011-crds-hoka-bondi-9-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA GAVIOTA 6 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5592.0,
+      "handle": "1171934-bwht-hoka-gaviota-6-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH 7 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1171905-bblc-mach-7-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 9 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6990.0,
+      "handle": "1162013-gycr-hoka-bondi-9-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1162032-ydt-hoka-clifton-10-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 9 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5592.0,
+      "handle": "1162013-nyzs-hoka-bondi-9-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-BONDI 8 Men",
+      "type": "Road Running",
+      "price_thb": 3250.0,
+      "handle": "1123202-vsw-hoka-bondi-8-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 9 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5592.0,
+      "handle": "1162011-sstc-bondi-9-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA ARAHI 8 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1168690-mblw-hoka-arahi-8-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH 7 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1171904-cbltb-hoka-mach-7-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA ARAHI 8 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4792.0,
+      "handle": "1168690-albst-hoka-arahi-8-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 9 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6990.0,
+      "handle": "1162011-sccg-hoka-bondi-9-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 9 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6990.0,
+      "handle": "1162013-cwg-hoka-bondi-9-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 7 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6490.0,
+      "handle": "1110518-bblc-hoka-bondi-7-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1162030-prsm-hoka-clifton-10-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA RINCON 4 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4990.0,
+      "handle": "1155130-wblc-hoka-rincon-4-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA GAVIOTA 6 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6990.0,
+      "handle": "1171932-blft-hoka-gaviota-6-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH 7 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1171905-bwht-mach-7-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH X 3 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7490.0,
+      "handle": "1168871-nzs-mach-x-3-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA MACH X 3 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7490.0,
+      "handle": "1168720-wbs-hoka-mach-x-3-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA ARAHI 8 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1168710-cbltb-hoka-arahi-8-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1162032-ptyg-hoka-clifton-10-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA CLIFTON 10 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5990.0,
+      "handle": "1162032-aynn-hoka-clifton-10-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA BONDI 9 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6990.0,
+      "handle": "1162011-cbppl-hoka-bondi-9-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA RINCON 4 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4990.0,
+      "handle": "1155132-ptyg-hoka-rincon-4-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA RINCON 4 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4990.0,
+      "handle": "1155132-fyz-hoka-rincon-4-wide-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "HOKA",
+      "model": "HOKA-BONDI 8 Men",
+      "type": "Road Running",
+      "price_thb": 3250.0,
+      "handle": "1123202-lmg-hoka-bondi-8-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    }
+  ],
+  "NEWBALANCE": [
+    {
+      "brand": "NEWBALANCE",
+      "model": "NEWBALANCE 1080 V15 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6000.0,
+      "handle": "m10805md-newbalance-1080-v15-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "NEWBALANCE",
+      "model": "NEWBALANCE 1080 V15 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4800.0,
+      "handle": "m10802hr-newbalance-1080-v15-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "NEWBALANCE",
+      "model": "NEWBALANCE SC Elite V5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 8500.0,
+      "handle": "mrcel55l-newbalance-sc-elite-v5-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "NEWBALANCE",
+      "model": "NEWBALANCE Rebel V5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4240.0,
+      "handle": "mfcx4tr-newbalance-rebel-v5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "NEWBALANCE",
+      "model": "NEWBALANCE SC Elite V5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6800.0,
+      "handle": "mrcel79h-newbalance-sc-elite-v5-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "NEWBALANCE",
+      "model": "NEWBALANCE SC TRAINER V3 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7500.0,
+      "handle": "mrcx17a-newbalance-sc-trainer-v3-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    }
+  ],
+  "NIKE": [
+    {
+      "brand": "NIKE",
+      "model": "NIKE VOMERO 18 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3850.0,
+      "handle": "if0514-002-nike-nike-vomenero-18-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "NIKE",
+      "model": "NIKE AIR ZOOM PEGASUS 41 EK รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3780.0,
+      "handle": "hj7037-600-nike-air-zoom-pegasus-41-ek-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "NIKE",
+      "model": "NIKE VOMERO 18 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3850.0,
+      "handle": "hm6803-109-nike-vomero-18-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "NIKE",
+      "model": "NIKE VOMERO 18 WIDE รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3850.0,
+      "handle": "if0514-100-nike-nike-vomero-18-wide-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "NIKE",
+      "model": "NIKE AIR ZOOM ALPHAFLY NEXT% 3 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6580.0,
+      "handle": "fd8311-104-nike-air-zoom-alphafly-next-3-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "NIKE",
+      "model": "NIKE ZOOMX VAPORFLY NEXT% 4 EK รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6230.0,
+      "handle": "ih0869-605-nike-zoomx-vaporfly-next-4-ek-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "NIKE",
+      "model": "NIKE AIR ZOOM ALPHAFLY NEXT% 3 EK รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7840.0,
+      "handle": "hj7041-600-nike-air-zoom-alphafly-next-3-ek-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "NIKE",
+      "model": "NIKE PEGASUS PREMIUM รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5670.0,
+      "handle": "im6778-902-nike-nike-pegasus-premium-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "NIKE",
+      "model": "NIKE ZOOMX VAPORFLY NEXT% 4 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7120.0,
+      "handle": "im8068-999-nike-zoomx-vaporfly-next-4-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "NIKE",
+      "model": "NIKE ZOOMX VAPORFLY NEXT% 4 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5950.0,
+      "handle": "hf6414-401-zoomx-vaporfly-next-4-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    }
+  ],
+  "ON": [
+    {
+      "brand": "ON",
+      "model": "ON Cloudsurfer 2  รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6600.0,
+      "handle": "3mf10121043-on-cloudsurfer-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudsurfer Max Men รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7500.0,
+      "handle": "3mf30430106-on-cloudsurfer-max-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudmonster 2 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5250.0,
+      "handle": "3me10120777-on-cloudmonster-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudsurfer Max รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6000.0,
+      "handle": "3mf30434052-cloudsurfer-max-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudsurfer Next รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6200.0,
+      "handle": "3me30020106-on-cloudsurfer-next-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudmonster 2 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6000.0,
+      "handle": "3me10122903-cloudmonster-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloud 6 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6200.0,
+      "handle": "3mf10071043-on-cloud-6-men",
+      "primary_use": "lifestyle_or_walking",
+      "recommended_runs": [],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 0,
+        "tempo": 0,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "walking",
+        "lifestyle"
+      ],
+      "classification_reason_th": "เป็นรองเท้าแนวลำลอง/เดินมากกว่ารองเท้าซ้อมวิ่งจริงจัง จึงไม่ควรถูก RAG ดึงเป็นตัวเลือกหลักสำหรับ workout",
+      "not_ideal_for": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ใช้เดินหรือวิ่งเบามากได้ แต่ไม่ใช่ตัวเลือกหลักสำหรับซ้อมตามเป้าหมาย"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudflow 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6000.0,
+      "handle": "3mf30760117-cloudflow-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudflow 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6000.0,
+      "handle": "3mf10112929-on-cloudflow-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudmonster 3 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7900.0,
+      "handle": "3mg10051043-on-cloudmonster-3-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloud 6 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6200.0,
+      "handle": "3mf10071200-on-cloud-6-men",
+      "primary_use": "lifestyle_or_walking",
+      "recommended_runs": [],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 0,
+        "tempo": 0,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "walking",
+        "lifestyle"
+      ],
+      "classification_reason_th": "เป็นรองเท้าแนวลำลอง/เดินมากกว่ารองเท้าซ้อมวิ่งจริงจัง จึงไม่ควรถูก RAG ดึงเป็นตัวเลือกหลักสำหรับ workout",
+      "not_ideal_for": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ใช้เดินหรือวิ่งเบามากได้ แต่ไม่ใช่ตัวเลือกหลักสำหรับซ้อมตามเป้าหมาย"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudflow 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7500.0,
+      "handle": "3mf10111043-cloudflow-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudmonster 3 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7900.0,
+      "handle": "3mg10054747-on-cloudmonster-3-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudmonster Hyper รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 9100.0,
+      "handle": "3me10134323-on-cloudmonster-hyper-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudmonster 3 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7900.0,
+      "handle": "3mg10053388-on-cloudmonster-3-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudsurfer 2 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6600.0,
+      "handle": "3mf10120074-on-cloudsurfer-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudsurfer 2 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6600.0,
+      "handle": "3mf10124749-on-cloudsurfer-2-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ON",
+      "model": "ON CLOUDSURFER NEXT รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6200.0,
+      "handle": "3me30024720-on-cloudsurfer-next-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "ON",
+      "model": "ON Cloudmonster 3 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7900.0,
+      "handle": "3mg10050656-on-cloudmonster-3-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "max_cushion",
+        "daily_trainer",
+        "long_run"
+      ],
+      "classification_reason_th": "เป็นกลุ่มซัพพอร์ต/นุ่ม/ซ้อมระยะ เหมาะกับ easy run, recovery run และ long run มากกว่างานเร็ว",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่เด่นสำหรับ interval หรือ race day เพราะมักหนักและตอบสนองช้ากว่ารองเท้าสายแข่ง"
+    },
+    {
+      "brand": "ON",
+      "model": "ON CLOUD 6 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6200.0,
+      "handle": "3mf10074874-on-cloud-6-men",
+      "primary_use": "lifestyle_or_walking",
+      "recommended_runs": [],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 0,
+        "tempo": 0,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "walking",
+        "lifestyle"
+      ],
+      "classification_reason_th": "เป็นรองเท้าแนวลำลอง/เดินมากกว่ารองเท้าซ้อมวิ่งจริงจัง จึงไม่ควรถูก RAG ดึงเป็นตัวเลือกหลักสำหรับ workout",
+      "not_ideal_for": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ใช้เดินหรือวิ่งเบามากได้ แต่ไม่ใช่ตัวเลือกหลักสำหรับซ้อมตามเป้าหมาย"
+    }
+  ],
+  "SAUCONY": [
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY-KINVARA PRO Men",
+      "type": "Road Running",
+      "price_thb": 3245.0,
+      "handle": "s20847-212-saucony-kinvara-pro-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY-ENDORPHIN SPEED 4  Men",
+      "type": "Road Running",
+      "price_thb": 3145.0,
+      "handle": "s20940-67-saucony-endorphin-speed-4-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY-ENDORPHIN SPEED 4  Men",
+      "type": "Road Running",
+      "price_thb": 3145.0,
+      "handle": "s20940-68-saucony-endorphin-speed-4-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN AZURA รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5490.0,
+      "handle": "s21070-103-saucony-endorphin-azura-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 1,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "road_running",
+        "fallback_rule"
+      ],
+      "classification_reason_th": "จัดเป็นรองเท้าวิ่งถนนทั่วไปจากข้อมูลชื่อรุ่นในไฟล์ จึงให้เป็น easy run เป็นค่าเริ่มต้น",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "low",
+      "caution_th": "ควรตรวจข้อมูลรุ่นเพิ่มเติมก่อนใช้แนะนำแบบเฉพาะเจาะจง"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN SPEED 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3774.0,
+      "handle": "s21007-243-saucony-endorphin-speed-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY HURRICANE 25 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3474.0,
+      "handle": "s21026-201-saucony-hurricane-25-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN SPEED 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3774.0,
+      "handle": "s21007-212-saucony-endorphin-speed-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY KINVARA 16 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3003.0,
+      "handle": "s21020-01-saucony-kinvara-16-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "easy_run",
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "lightweight_trainer",
+        "versatile",
+        "speed_training"
+      ],
+      "classification_reason_th": "เป็นรองเท้าซ้อมที่ค่อนข้างเบาและตอบสนองดี เหมาะกับ tempo/interval เบา ๆ และยังพอใช้ easy run ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN SPEED 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4403.0,
+      "handle": "s21007-142-saucony-endorphin-speed-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY HURRICANE 25 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3474.0,
+      "handle": "s21026-202-saucony-hurricane-25-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN AZURA รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5490.0,
+      "handle": "s21070-105-saucony-endorphin-azura-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 1,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "road_running",
+        "fallback_rule"
+      ],
+      "classification_reason_th": "จัดเป็นรองเท้าวิ่งถนนทั่วไปจากข้อมูลชื่อรุ่นในไฟล์ จึงให้เป็น easy run เป็นค่าเริ่มต้น",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "low",
+      "caution_th": "ควรตรวจข้อมูลรุ่นเพิ่มเติมก่อนใช้แนะนำแบบเฉพาะเจาะจง"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY-TRIUMPH SG Men",
+      "type": "Road Running",
+      "price_thb": 2745.0,
+      "handle": "s21013-100-saucony-triumph-sg-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN SPEED 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4403.0,
+      "handle": "s21007-140-saucony-endorphin-speed-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN SPEED 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4403.0,
+      "handle": "s21007-98-saucony-endorphin-speed-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN TRAINER รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 2890.0,
+      "handle": "s20996-97-saucony-endorphin-trainer-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY RIDE 19 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3493.0,
+      "handle": "s21055-146-saucony-ride-19-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY RIDE 19 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3493.0,
+      "handle": "s21055-101-saucony-ride-19-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN PRO 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7990.0,
+      "handle": "s21064-130-saucony-endorphin-pro-5-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN PRO 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7990.0,
+      "handle": "s21064-101-saucony-endorphin-pro-5-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN SPEED 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5032.0,
+      "handle": "s21007-95-saucony-endorphin-speed-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN PRO 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7990.0,
+      "handle": "s21064-140-saucony-endorphin-pro-5-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN PRO 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7990.0,
+      "handle": "s21064-131-saucony-endorphin-pro-5-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN AZURA รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5490.0,
+      "handle": "s21070-402-saucony-endorphin-azura-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 1,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "road_running",
+        "fallback_rule"
+      ],
+      "classification_reason_th": "จัดเป็นรองเท้าวิ่งถนนทั่วไปจากข้อมูลชื่อรุ่นในไฟล์ จึงให้เป็น easy run เป็นค่าเริ่มต้น",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "low",
+      "caution_th": "ควรตรวจข้อมูลรุ่นเพิ่มเติมก่อนใช้แนะนำแบบเฉพาะเจาะจง"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN AZURA รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5490.0,
+      "handle": "s21070-401-saucony-endorphin-azura-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 1,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "road_running",
+        "fallback_rule"
+      ],
+      "classification_reason_th": "จัดเป็นรองเท้าวิ่งถนนทั่วไปจากข้อมูลชื่อรุ่นในไฟล์ จึงให้เป็น easy run เป็นค่าเริ่มต้น",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "low",
+      "caution_th": "ควรตรวจข้อมูลรุ่นเพิ่มเติมก่อนใช้แนะนำแบบเฉพาะเจาะจง"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN PRO 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 7990.0,
+      "handle": "s21064-100-saucony-endorphin-pro-5-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY RIDE 19 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3992.0,
+      "handle": "s21055-110-saucony-ride-19-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 1,
+        "tempo": 2,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "daily_trainer",
+        "versatile",
+        "easy_run"
+      ],
+      "classification_reason_th": "เป็น daily trainer ใช้ซ้อมทั่วไปได้ดี เหมาะกับ easy run เป็นหลัก และพอใช้ tempo เบา ๆ ได้บางครั้ง",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN SPEED 5 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 6290.0,
+      "handle": "s21007-401-saucony-endorphin-speed-5-men",
+      "primary_use": "tempo",
+      "recommended_runs": [
+        "interval",
+        "tempo"
+      ],
+      "run_suitability_score": {
+        "easy_run": 1,
+        "interval": 2,
+        "tempo": 3,
+        "race_day": 1
+      },
+      "shoe_tags": [
+        "fast_trainer",
+        "tempo",
+        "workout"
+      ],
+      "classification_reason_th": "เป็นกลุ่ม fast trainer/super trainer เหมาะกับการซ้อมเร็ว เช่น tempo, progression, cruise interval และใช้ซ้อมยาวแบบมี pace ได้",
+      "not_ideal_for": [],
+      "classification_confidence": "high"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY GUIDE 19 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4990.0,
+      "handle": "s21058-172-saucony-guide-19-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY GUIDE 19 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4990.0,
+      "handle": "s21058-101-saucony-guide-19-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY HURRICANE 25 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5790.0,
+      "handle": "s21026-140-saucony-hurricane-25-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY GUIDE 19 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 4990.0,
+      "handle": "s21058-103-saucony-guide-19-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY HURRICANE 25 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5790.0,
+      "handle": "s21026-106-saucony-hurricane-25-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY ENDORPHIN AZURA รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5490.0,
+      "handle": "s21070-400-saucony-endorphin-azura-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 2,
+        "interval": 1,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "road_running",
+        "fallback_rule"
+      ],
+      "classification_reason_th": "จัดเป็นรองเท้าวิ่งถนนทั่วไปจากข้อมูลชื่อรุ่นในไฟล์ จึงให้เป็น easy run เป็นค่าเริ่มต้น",
+      "not_ideal_for": [
+        "race_day"
+      ],
+      "classification_confidence": "low",
+      "caution_th": "ควรตรวจข้อมูลรุ่นเพิ่มเติมก่อนใช้แนะนำแบบเฉพาะเจาะจง"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY HURRICANE 25 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5790.0,
+      "handle": "s21026-142-saucony-hurricane-25-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    },
+    {
+      "brand": "SAUCONY",
+      "model": "SAUCONY HURRICANE 25 รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 5790.0,
+      "handle": "s21026-172-saucony-hurricane-25-men",
+      "primary_use": "easy_run",
+      "recommended_runs": [
+        "easy_run"
+      ],
+      "run_suitability_score": {
+        "easy_run": 3,
+        "interval": 0,
+        "tempo": 1,
+        "race_day": 0
+      },
+      "shoe_tags": [
+        "stability",
+        "support",
+        "daily_trainer"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้า stability/support เหมาะกับ easy run, recovery run และวิ่งสะสมระยะสำหรับคนที่ต้องการความมั่นคง",
+      "not_ideal_for": [
+        "interval",
+        "race_day"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ถ้า workout เร็วมากอาจรู้สึกหนักหรือไม่คล่องเท่ารองเท้าสาย speed"
+    }
+  ],
+  "XTEP": [
+    {
+      "brand": "XTEP",
+      "model": "XTEP 160X6.0 MONXTER รองเท้าวิ่งถนนผู้ชาย",
+      "type": "Road Running",
+      "price_thb": 3999.0,
+      "handle": "975119110002nbxt-xtep-160x6-0-monxter-men",
+      "primary_use": "race_day",
+      "recommended_runs": [
+        "interval",
+        "tempo",
+        "race_day"
+      ],
+      "run_suitability_score": {
+        "easy_run": 0,
+        "interval": 2,
+        "tempo": 2,
+        "race_day": 3
+      },
+      "shoe_tags": [
+        "carbon_or_race",
+        "speed",
+        "lightweight"
+      ],
+      "classification_reason_th": "เป็นกลุ่มรองเท้าแข่งขัน/ซูเปอร์ชูส์ เน้นทำความเร็วและวันแข่ง มากกว่าใช้ซ้อมช้าเป็นประจำ",
+      "not_ideal_for": [
+        "easy_run"
+      ],
+      "classification_confidence": "high",
+      "caution_th": "ไม่ควรใช้ easy run บ่อย เพราะอาจสิ้นเปลืองและไม่เหมาะกับ pace ช้า"
+    }
+  ]
+}
