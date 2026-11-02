@@ -108,6 +108,9 @@ npm run dev
 
 จากนั้นเปิด `http://localhost:5173`
 
+หาก backend ไม่ได้รันที่ `http://localhost:8000` ให้แก้ค่า `API_BASE_URL` ใน
+[`web/src/App.jsx`](web/src/App.jsx) ให้ตรงกับ URL ของ backend
+
 นอกจากหน้าเว็บแล้ว ยังสามารถรันโหมดสนทนาใน terminal ได้ด้วย:
 
 ```bash
